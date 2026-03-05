@@ -36,6 +36,7 @@ Manual attendance lene mein time waste + proxy issues.
 **Request:**  
 Form-data key = `image` (jpg/png file)
 
+
 **Response:**
 ```json
 {
