@@ -59,9 +59,15 @@ docker run -p 5000:5000 person-detect
 ### 📁 Project Structure
 
 ├── app.py                 # Main Flask API
+
 ├── yolov8n.pt             # YOLOv8n model
+
 ├── requirements.txt
+
 ├── Dockerfile
+
 ├── attendance.csv         # Future attendance logging
+
 ├── uploads/               # Uploaded images
+
 └── outputs/               # Processed images
