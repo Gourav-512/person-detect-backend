@@ -6,6 +6,7 @@ import base64
 import os
 from ultralytics import YOLO
 
+
 app = Flask(__name__)
 CORS(app)
 
@@ -13,6 +14,7 @@ UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 model = YOLO("yolov8n.pt")
+
 
 @app.route("/detect", methods=["POST"])
 def detect():
@@ -37,10 +39,12 @@ def detect():
     _, buffer = cv2.imencode(".jpg", img)
     img_base64 = base64.b64encode(buffer).decode("utf-8")
 
+    
     return jsonify({
         "person_count": count,
         "image_base64": img_base64
     })
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
