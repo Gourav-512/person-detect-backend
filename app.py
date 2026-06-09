@@ -23,8 +23,7 @@ def detect():
     img_bytes = file.read()
 
     np_img = np.frombuffer(img_bytes, np.uint8)
-    img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
-
+    img = cv2.imdecode(np_img, cv2.IMREAD_COLOR
     
     results = model(img)[0]
 
