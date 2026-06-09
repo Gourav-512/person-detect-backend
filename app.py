@@ -22,7 +22,6 @@ def detect():
     file = request.files["image"]
     img_bytes = file.read()
 
-    
     np_img = np.frombuffer(img_bytes, np.uint8)
     img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
 
