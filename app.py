@@ -14,7 +14,6 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 model = YOLO("yolov8n.pt")
 
-
 @app.route("/detect", methods=["POST"])
 def detect():
     if "image" not in request.files:
