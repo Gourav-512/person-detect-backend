@@ -27,7 +27,6 @@ def detect():
 
     results = model(img)[0]
 
-    
     count = 0
     for box in results.boxes:
         if int(box.cls[0]) == 0:  # person
