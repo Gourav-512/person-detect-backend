@@ -36,8 +36,7 @@ def detect():
 
     _, buffer = cv2.imencode(".jpg", img)
     img_base64 = base64.b64encode(buffer).decode("utf-8")
-
-    
+ 
     return jsonify({
         "person_count": count,
         "image_base64": img_base64
