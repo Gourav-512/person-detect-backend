@@ -12,7 +12,6 @@ Designed for:
 * Automation Applications
 * Real-time Vision Analytics
 
-
 ---
 # 📸 Smart Students Attendance System – Person Detection Backend
 # we are lounching a full Expo aap 
