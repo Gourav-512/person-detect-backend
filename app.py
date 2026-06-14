@@ -18,7 +18,7 @@ model = YOLO("yolov8n.pt")
 def detect():
     if "image" not in request.files:
         return jsonify({"error": "No image"}), 400
-    
+
     file = request.files["image"]
     img_bytes = file.read()
 
