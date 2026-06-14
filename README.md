@@ -24,6 +24,7 @@ Designed for:
 ![Render](https://img.shields.io/badge/Render-46E3B7?logo=render&logoColor=white)
 
 
+
 # 🚀 Project Overview
 
 Person Detect Backend is a Computer Vision backend engine capable of:
