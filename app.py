@@ -6,7 +6,6 @@ import base64
 import os
 from ultralytics import YOLO
 
-
 app = Flask(__name__)
 CORS(app)
 
