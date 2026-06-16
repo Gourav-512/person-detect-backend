@@ -41,6 +41,7 @@ def detect():
         "person_count": count,
         "image_base64": img_base64
     })
+    
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
