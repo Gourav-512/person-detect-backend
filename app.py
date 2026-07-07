@@ -6,7 +6,6 @@ import base64
 import os
 from ultralytics import YOLO
 
-
 app = Flask(__name__)
 CORS(app)
 
@@ -21,6 +20,7 @@ def detect():
         return jsonify({"error": "No image"}), 400
         
     file = request.files["image"]
+    
     img_bytes = file.read()
 
     np_img = np.frombuffer(img_bytes, np.uint8)
