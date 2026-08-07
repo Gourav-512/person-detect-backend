@@ -3,7 +3,7 @@ from flask_cors import CORS
 import cv2
 import numpy as np
 import base64
-import os
+
 from ultralytics import YOLO
 
 app = Flask(__name__)
