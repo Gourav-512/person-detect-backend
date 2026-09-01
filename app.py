@@ -12,6 +12,7 @@ CORS(app)
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
+
 model = YOLO("yolov8n.pt")
 
 @app.route("/detect", methods=["POST"])
