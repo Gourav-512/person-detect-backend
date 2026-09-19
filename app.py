@@ -26,7 +26,7 @@ def detect():
     np_img = np.frombuffer(img_bytes, np.uint8)
     img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
 
-    results = model(img)[0]
+    results = model(img)[10]
 
     count = 0
     for box in results.boxes:
