@@ -14,7 +14,8 @@ Designed for:
 
 ---
 # 📸 Smart Students Attendance System – Person Detection Backend
-# we are lounching a full Expo aap 
+
+We are launching a full Expo app  
 **YOLOv8n + Flask API** | Auto person counting from classroom photo | Dockerized | Render Deployed | Perfect for Expo / React Native Mobile App
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
@@ -302,7 +303,7 @@ By exploring this project, developers can learn:
 
 # 👨‍💻 Author
 
-## Gaurav Salunkhe (G-One)
+## Gourav Salunkhe (G-One)
 
 Applied AI Engineer | Computer Vision Enthusiast | AI Builder
 
